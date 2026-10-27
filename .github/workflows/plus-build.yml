@@ -38,7 +38,7 @@ jobs:
     env:
       CGO_ENABLED: "0"
       GOFLAGS: "-mod=vendor"
-      PLUS_BASE_VERSION: "0.22.1"
+      PLUS_BASE_VERSION: "0.22.3"
       PLUS_DEV_RELEASE: "8"
       GTS_TEST_POSTGRES_DSN: "postgres://gotosocial:gotosocial@localhost:5432/gotosocial_test?sslmode=disable"
 
